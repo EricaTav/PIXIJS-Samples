@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <title>PIXI-Samples</title>
+
+    <meta charset="utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="minimal-ui, target-densitydpi=device-dpi, user-scalable=0, width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="MobileOptimized" content="960" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <style>
+        html, body, canvas {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            border: 0;
+        }
+        body {
+            background-color: #22253D;
+            overflow: hidden;
+            text-align: center;
+        }
+        canvas {
+            margin-left: 1px;
+        }
+
+        @font-face {
+            font-family: 'Roboto-Condensed';
+            font-style: normal;
+            src: url(fonts/RobotoCondensed.ttf);
+        }
+
+        body{
+            margin: 50px;
+        }
+        canvas{
+            backgroundColor : white;
+            position : relative;
+            left : 50%;
+            top : 50%;
+            transform : translate3d( -50%, -50%, 0 );
+        }
+        #gameContainer {
+            border-radius: 30px;
+            overflow: hidden;
+            margin: 0 auto;
+            width: fit-content;
+            height: min-content;
+            box-shadow: 0px 0px 200px -5px rgba(0,0,0,0.75);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="gameContainer"></div>
+
+    <script src="vendors.js"></script>
+    <script src="app.js"></script>
+
+    <span style="font-family: Roboto-Condensed"></span>
+
+</body>
+
+</html>

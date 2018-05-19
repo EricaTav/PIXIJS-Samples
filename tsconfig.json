@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "module": "commonjs",
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "allowJs": true,
+
+        "outDir": "./ts_build"
+    },
+    "include": [
+        "src/**/*",
+        "typings/**/*.d.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "./node_modules/**/*.d.ts",
+        "src/scripts",
+        "node_modules/pixi-filters/types.d.ts"
+    ]
+}
